@@ -12,14 +12,23 @@ localhost:(port number) / (php파일 이름)을 실행해보았는데, httpd.con
 > apache24의 경우 작업 관리자를 켜서 직접 stop한 후 진행했으며, Apache Monitor를 삭제했다가 다시 깔아서 진행해보기도 했습니다. 하지만 해당 오류가 계속되어 이를 해결하기 어려웠습니다. 
 > mysql의 경우, 작업 관리자에 들어가서 stop한 후 진행했으며 cmd 창을 관리자 권한으로 열어서 삭제했다 재설치한 후 텍스트 파일을 변경하는 등의 작업을 거쳤습니다. 하지만 마찬가지로 이 경우에도 사진과 같은 내용의 오류가 떴습니다. 
 => 해결을 위해 찾아본 레퍼런스들입니다.
+
 https://glennbouchard.com/ko/101-cara-mengatasi-apache-xampp-yang-tidak-bisa-start.html
+
 https://velog.io/@so_sa/XMAPP-Control-Panel-Apache-%ED%8F%AC%ED%8A%B8-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0
+
 https://patiencelee.tistory.com/1108
+
 https://old-moon.tistory.com/102
+
 https://sweepty.medium.com/xampp%EC%97%90%EC%84%9C-apache%EA%B0%80-start%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EB%AC%B8%EC%A0%9C-1e836f756a4f
+
 https://youtu.be/I6fQrT25ek0
+
 https://youtu.be/oXOHIdMDvzs
+
 https://youtu.be/tcoIVp1eNgM
+
 https://youtu.be/EPNWxjriRuI
 
 #### => 
