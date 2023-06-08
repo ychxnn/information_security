@@ -11,10 +11,16 @@ localhost:(port number) / (php파일 이름)을 실행해보았는데, httpd.con
 
 ![image](https://github.com/ychxnn/information_security/assets/112887768/042d7775-e2aa-41e0-8964-57b4b7839ded)
 
-> 이를 해결하기 위해 apache는 3306->3307로 변경하고, mysql의 포트 번호는 80 -> 8088등으로 변경하여 진행했습니다. apache24폴더와 mysql 폴더 외에도 xampp 폴더 내 apache24의 httpd.conf 텍스트 파일과 mysql의 my.ini 텍스트 파일에서도 변경하여 진행했으나, 사진과 같은 오류가 며칠간 계속되었습니다. 
+> 이를 해결하기 위해 apache는 3306->3307로 변경하고, mysql의 포트 번호는 80 -> 8088등으로 변경하여 진행했습니다. 
+
+> apache24폴더와 mysql 폴더 외에도 xampp 폴더 내 apache24의 httpd.conf 텍스트 파일과 mysql의 my.ini 텍스트 파일에서도 변경하여 진행했으나, 사진과 같은 오류가 며칠간 계속되었습니다. 
+
 이를 위해 사용한 실행 방법입니다.
+
 > apache24의 경우 작업 관리자를 켜서 직접 stop한 후 진행했으며, Apache Monitor를 삭제했다가 다시 깔아서 진행해보기도 했습니다. 하지만 해당 오류가 계속되어 이를 해결하기 어려웠습니다. 
+
 > mysql의 경우, 작업 관리자에 들어가서 stop한 후 진행했으며 cmd 창을 관리자 권한으로 열어서 삭제했다 재설치한 후 텍스트 파일을 변경하는 등의 작업을 거쳤습니다. 하지만 마찬가지로 이 경우에도 사진과 같은 내용의 오류가 떴습니다. 
+
 => 해결을 위해 찾아본 레퍼런스들입니다.
 
 https://glennbouchard.com/ko/101-cara-mengatasi-apache-xampp-yang-tidak-bisa-start.html
